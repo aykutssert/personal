@@ -1,3 +1,3 @@
 const formspree = "id";
 
-export { formspree } ;
+export default formspree  ;

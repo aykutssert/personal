@@ -1,13 +1,11 @@
 
-import { formspree } from "./config.js";
+import  formspree  from "./config.js";
 document.addEventListener("DOMContentLoaded", function () {
     const form = document.getElementById('contactForm');
     const successMessage = document.getElementById('submitSuccessMessage');
     const errorMessage = document.getElementById('submitErrorMessage');
 
-
     form.setAttribute('action', `https://formspree.io/f/${formspree}`);
-    console.log("formspree:"+formspree)
 
     form.addEventListener('submit', async function (event) {
         event.preventDefault();
