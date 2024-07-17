@@ -1,5 +1,5 @@
 
-import { formspree } from "./config";
+import { formspree } from "./config.js";
 document.addEventListener("DOMContentLoaded", function () {
     const form = document.getElementById('contactForm');
     const successMessage = document.getElementById('submitSuccessMessage');
